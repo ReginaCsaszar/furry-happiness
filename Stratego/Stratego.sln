@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stratego", "Stratego\Stratego.vcxproj", "{C2763BA6-41AF-4E90-9AF1-50C71CB638AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2763BA6-41AF-4E90-9AF1-50C71CB638AF}.Debug|x64.ActiveCfg = Debug|x64
+		{C2763BA6-41AF-4E90-9AF1-50C71CB638AF}.Debug|x64.Build.0 = Debug|x64
+		{C2763BA6-41AF-4E90-9AF1-50C71CB638AF}.Debug|x86.ActiveCfg = Debug|Win32
+		{C2763BA6-41AF-4E90-9AF1-50C71CB638AF}.Debug|x86.Build.0 = Debug|Win32
+		{C2763BA6-41AF-4E90-9AF1-50C71CB638AF}.Release|x64.ActiveCfg = Release|x64
+		{C2763BA6-41AF-4E90-9AF1-50C71CB638AF}.Release|x64.Build.0 = Release|x64
+		{C2763BA6-41AF-4E90-9AF1-50C71CB638AF}.Release|x86.ActiveCfg = Release|Win32
+		{C2763BA6-41AF-4E90-9AF1-50C71CB638AF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A007B939-FE02-4C79-9947-0ED49C7E2F54}
+	EndGlobalSection
+EndGlobal
