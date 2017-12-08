@@ -20,6 +20,7 @@ GameParts::GameParts() {
 
     selected = -1;
     wrong = -1;
+	target = -1;
 
     buttons["okBtn"] = false;
     buttons["resetBtn"] = false;

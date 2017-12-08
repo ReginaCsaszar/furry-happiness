@@ -16,8 +16,8 @@ public:
 
     std::map<std::string, std::string>themeSet;
 
-    void loadSWTheme() { loadTheme("../Tiles/StarWars/"); }
-    void loadBaseTheme() { loadTheme("../Tiles/Base/"); }
+    void loadSWTheme() { loadTheme("StarWars/"); }
+    void loadBaseTheme() { loadTheme("Base/"); }
 
 private:
 

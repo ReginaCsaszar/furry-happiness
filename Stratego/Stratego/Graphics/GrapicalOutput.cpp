@@ -53,7 +53,7 @@ bool GrapicalOutput::loadMedia() {
     SDL_Surface* loadedSurface = nullptr;
 
     for (auto &tiles : set.themeSet) {
-        auto path = "../Tiles/" + tiles.second;
+        auto path = "Tiles/" + tiles.second;
         loadedSurface = IMG_Load(path.c_str());
 
         std::unique_ptr<SDL_Texture, sdl_deleter> newTexture(
