@@ -1,22 +1,89 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{ac193bf3-918c-4bb0-8ffa-87dfe683a542}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    <Filter Include="Graphics\Init">
+      <UniqueIdentifier>{e533f435-01e7-4317-b6a0-76fe908d05a7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{a20f3bf1-ca03-4c84-a8fa-5424f5decf7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{f10e8be6-255f-41e7-a3a0-3ec57a4fb175}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Graphics\MouseInput.cpp">
+      <Filter>Graphics</Filter>
     </ClCompile>
+    <ClCompile Include="Graphics\GrapicalOutput.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\Game.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic\StepValidator.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\GameParts.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Graphics\MouseInput.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\UserInput.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GrapicalOutput.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Display.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Init\DisplayParts.hpp">
+      <Filter>Graphics\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Init\DPBase.hpp">
+      <Filter>Graphics\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Init\DPContainer.hpp">
+      <Filter>Graphics\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Init\DPElem.hpp">
+      <Filter>Graphics\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Init\DPField.hpp">
+      <Filter>Graphics\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Init\Tileset.hpp">
+      <Filter>Graphics\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\Game.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic\StepValidator.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Board.hpp">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Card.hpp">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\GameParts.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Player.hpp">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Stratego.rc" />
   </ItemGroup>
 </Project>
